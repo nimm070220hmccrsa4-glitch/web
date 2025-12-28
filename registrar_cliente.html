@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar Cliente</title>
+    <style>
+        body{
+            font-family:Arial;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+        label, input, select, button{
+            display: block;
+            width: 100%;
+            margin-top:10px;
+            border-radius:5px;
+        }
+        .container{
+            max-width:500px;
+            margin:auto;
+            background: white;
+            padding: 20px;
+            border-radius:10px;
+        }
+        button{
+            background: green;
+            color:white;
+            border:none;
+            cursor:pointer;
+        }
+    </style>
+</head>
+<body>
+    <center class="container">
+        <h3>Asignar Cliente a Mesa</h3>
+        <form action="save1.php" method="POST">
+            <label>ID Cliente</label>
+            <input type="text"name="idcliente"required>
+            <label>Nombre Cliente</label>
+            <input type="text"name="nombre"required>
+            <label>Apellido Cliente</label>
+            <input type="text"name="apellido"required>
+            <label>Fecha</label>
+            <input type="text"name="fecha"required>
+            <label>ID mesa</label>
+            <input type="text"name="idmesa"required>
+                <button type="text">Registrar Cliente</button>
+            </select>
+        </form>
+    </center>
+</body>
+</html>
